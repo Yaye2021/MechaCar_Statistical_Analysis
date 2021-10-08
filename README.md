@@ -17,18 +17,18 @@ MPG = -.01040 + 6.267 vehicle length+.001245 vehicle weight + .06877 spoiler ang
 3.	Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 It has a R squared value of  0.7149, which means, the results of the dependent variable are explained in a 71% by the independent variables; as we can see, probably some of the independent variables are not relevant and are not helping to explain the MPG value.
 
-IMAGE 1
+![image](Images/IMAGEN1.jpg)
 
 # DELIVERABLE 2
 ## SUMMARY STATISTICS ON SUSPENSION COILS
 
 As we can see in the image below, the PSI mean is 1498.78 and the median value is 1500, which makes us think that the distribution of this set of data is nearly normal; also, it has a small percentage of standard deviation.
 
-IMAGE 2
+![image](Images/IMAGEN2.jpg)
 
 Furthermore, if we split the data using the Manufacturing_ Lot as the filtering variable, we can see that the Lot 3 Is the one with a mean different of 1500, and bigger variance and standard deviation values, being those datapoints the ones that contribute to the results seen above.
 
-IMAGE 3
+![image](Images/IMAGEN3.jpg)
 
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
@@ -40,15 +40,15 @@ The design specifications for the MechaCar suspension coils dictate that the var
 Seeing the t-tests made on the three different lots, we can observe that  for the Lot 1 and Lot 2, we accept the Ho, and for the Lot 3 we can reject Ho and accept Ha. 
 As seen below, for Lot 1 we have a pvalue of 1, which means, the mean of the subset is the same as the mean defined in the test.
 
-IMAGE 4
+![image](Images/IMAGEN4.jpg)
 
 For Lot 2, the pvalue is greater than 0.05, which means that the mean of this subset is the same as the mean defined in the test. As seen, the difference between the two metrics is only of 0.20 (1500 – 1500.20)
 
-IMAGE5
+![image](Images/IMAGEN5.jpg)
 
 For Lot 3, we have a pvalue of 0.04168 which is smaller than 0.05, which lead us to reject Ho and accept the alternative one which states that the mean is not equal to 1500.
 
-IMAGE 6
+![image](Images/IMAGEN6.jpg)
 
 # DELIVERABLE 4
 ## STUDY DESIGN: MECHACAR VS COMPETITION
